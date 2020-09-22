@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Landing Page Example</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/law-icons/font/flaticon.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/helpers.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/landing-2.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+
+    <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light scrolled awake" id="pb-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img width="200" src="images/Neurim_Logo_New_pixels.png" alt="neurim"></a>
+        <button class="navbar-toggler ml-auto" id="mobail-nav" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="ion-navicon"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="probootstrap-navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#section-home">בית</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-features">מה כלול</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-reviews">המלצות</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-pricing">סוגי חדרים</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-faq">שאלות ותשובות</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
+
+    <section class="pb_cover_v3 overflow-hidden cover-bg-indigo cover-bg-opacity text-left select-header p-50 pb-1000-only-big  pb_slant-white-neurim" id="section-home">
+      <div class="container mt-sm-4 top-30">
+        <div class="row align-items-center text-right justify-content-center" id="row-form-and-contant">
+          <div class="col-md-6">
+            <h2 class="heading mb-3">כפר הנופש נעורים</h2>
+            <div class="sub-heading float-right">
+              <p class="mb-4">שוטר/ת? בוא/י לנפוש אצלנו ליד הים, שלח/י פרטים ליצירת קשר ואנו נחזור אליך בהקדם
+              </p>
+              <p class="mb-5"><a class="btn btn-success btn-lg pb_btn-pill smoothscroll border-white text-neurim" href="#section-pricing"><span class="pb_font-14 text-uppercase pb_letter-spacing-1">מידע על סוגי חדרים</span></a></p>
+            </div>
+          </div> 
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-5 relative align-self-center" id="form-div">
+
+            <form action="" class="bg-white rounded pb_form_v1" method="POST" id="form-data" autocomplete="off" novalidate="novalidate">
+              <h2 class="mb-4 mt-0 text-center">מלא/י את הפרטים הבאים</h2>
+              <div class="form-group">
+                <label for="name">* שם</label>
+                <input type="text" class="form-control text-right pb_height-50 reverse" placeholder="שם" name="name" id="name">
+                <p class="text-danger error-name"></p>
+              </div>
+              <div class="form-group">
+                <label for="email">* אמייל</label>
+                <input type="email" class="form-control text-right pb_height-50 reverse" placeholder="אמייל" name="email" id="email">
+                <p class="text-danger error-email"></p>
+              </div>
+              <div class="form-group">
+                <label for="phone">* טלפון</label>
+                <input type="tel" class="form-control text-right pb_height-50 reverse" placeholder="טלפון" id="phone" name="phone">
+                <p class="text-danger error-phone"></p>
+              </div>
+              <div class="form-group">
+                <div class="pb_select-wrap">
+                  <label for="room-type">* סוג חדר</label>
+                  <select class="form-control dir-rtl pb_height-50 reverse" id="room-type" name="room-type">
+                    <option value="" selected>סוג חדר</option>
+                    <option value="זוגי">
+                      זוגי
+                    </option>
+                    <option value="משפחתי">
+                      משפחתי
+                    </option>
+                    <option value="קוטג">
+                      קוטג
+                    </option>
+                  </select>
+                  <p class="text-danger"></p>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-lg btn-block pb_btn-pill border-white text-neurim btn-shadow-blue" name="submit" id="submit" value="אני רוצה לנפוש אצלכם">
+              </div>
+            </form>
+
+          </div> 
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="pb_section bg-light pb_slant-white pb_pb-250" id="section-features">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-6 text-center mb-5">
+            <h2>מה כלול</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md- col-sm-6">
+            <div class="media d-block pb_feature-v1 text-right">
+              <div class="pb_icon mb-2 d-flex justify-content-center"><img width="60px" src="images/local_cafe-black-18dp.svg" alt="icon food"></div>
+              <div class="media-body">
+                <h5 class="mt-0 mb-3 heading">אוכל</h5>
+                <p class="text-sans-serif">הנופש כולל ארוחת בוקר וארוחת צהרים מפנקת עם מגוון מאכלים שמשתנים בכל יום</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md- col-sm-6">
+            <div class="media d-block pb_feature-v1 text-right">
+              <div class="pb_icon mb-2 d-flex justify-content-center"><img width="60px" src="images/meeting_room-black-18dp.svg" alt="icon room"></div>
+              <div class="media-body">
+                <h5 class="mt-0 mb-3 heading">חדר שינה</h5>
+                <p class="text-sans-serif">חדרי שינה נעימים ונוחים לזוגות ומשפחה שרוצים להתארח בכפר הנופש</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md- col-sm-6">
+            <div class="media d-block pb_feature-v1 text-right">
+              <div class="pb_icon mb-2 d-flex justify-content-center"><img width="60px" src="images/waves-black-18dp.svg" alt="icon sea"></div>
+              <div class="media-body">
+                <h5 class="mt-0 mb-3 heading">אטרקציות באזור</h5>
+                <p class="text-sans-serif">כפר הנופש ממוקם בחבצלת השרון ליד נתניה ויש כמה אטרקציות קרובות שאפשר ללכת אליהם ולבלות</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md- col-sm-6">
+            <div class="media d-block pb_feature-v1 text-right">
+              <div class="pb_icon mb-2 d-flex justify-content-center"><img width="60px" src="images/storefront-black-18dp.svg" alt="icon shop"></div>
+              <div class="media-body">
+                <h5 class="mt-0 mb-3 heading">גריל בר ובית קפה</h5>
+                <p class="text-sans-serif">בצהרים יהיה ניתן להזמין ארוחה בשרית בגליר בר ליד הבריכה או ארוחה חלבית בבית הקפה שליד חדר האוכל</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md- col-sm-6">
+            <div class="media d-block pb_feature-v1 text-right">
+              <div class="pb_icon mb-2 d-flex justify-content-center"><img width="60px" src="images/spa-black-18dp.svg" alt="icon spa"></div>
+              <div class="media-body">
+                <h5 class="mt-0 mb-3 heading">מסג'</h5>
+                <p class="text-sans-serif">ניתן לעשות מסג' במחיר טוב ולהנות מ - 45 שעות מהמסגיסטים שלנו</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md- col-sm-6">
+            <div class="media d-block pb_feature-v1 text-right">
+              <div class="pb_icon mb-2 d-flex justify-content-center"><img width="60px" src="images/users-solid.svg" alt="icon team"></div>
+              <div class="media-body">
+                <h5 class="mt-0 mb-3 heading">צוות בידור</h5>
+                <p class="text-sans-serif">צוות הבידור שלנו מציע מגוון של פעילויות שמתפרסמות בתוכניה במהלך מחזורי הנופש</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="pb_section pb_slant-light pb_pb-220" id="section-reviews">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-6 text-center mb-5">
+            <h2>המלצות</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div class="pb_pricing_v1 p-5 border text-center bg-white">
+              <img class="mb-2 rounded-circle" width="80px" src="images/default_profile.png" alt="person one">
+              <h3>שושי סולומון</h3>
+              <p class="pb_font-15">אני ממליצה בחום על נעורים, כפר נופש כפיי קרוב לים ויש גם בריכה החדרים נוחים ונקיים שווה לנסות</p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="pb_pricing_v1 p-5 border border-primary text-center bg-white">
+              <img class="mb-2 rounded-circle" width="80px" src="images/default_profile.png" alt="person one">
+              <h3>שלומית בן עקיבא</h3>
+              <p class="pb_font-15">אני שנים מגיע לנעורים ונהנה כל שנה מחדש מקום מקסים ומהנה, אוכל ברמה גבוהה, מקום מקסים<p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="pb_pricing_v1 p-5 border text-center bg-white">
+              <img class="mb-2 rounded-circle" width="80px" src="images/default_profile.png" alt="person one">
+              <h3>אדם שלום</h3>
+              <p class="pb_font-15">מאז שנולדתי ההורים שלי נהגו לקחת אותנו לנעורים כל שנה מקום מקסים שהופך את החופשה לבלתי נשכחת<p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="pb_section bg-light pb_slant-white" id="section-pricing">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-6 text-center mb-5">
+            <h2>חדרי הנופש</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div class="pb_pricing_v1 p-5 border border-primary text-center bg-white">
+              <h3>זוגי</h3>
+              <p class="pb_font-15">בחדר הזוגי ניתן להכניס בין 2-3 אנשים, בחדר יש שירותים מקלחת ערכת קפה ומקרר לשימושכם, חדר זה הוא החדר הכי בסיסי במתחם
+              </p>
+              <p class="mb-0">
+                <a href="#" role="button" class="btn btn-secondary btn-room btn-shadow-blue text-neurim border-white" data-type-room="זוגי">
+                בחר את החדר הזה
+                </a>
+            </p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="pb_pricing_v1 p-5 border border-primary text-center bg-white">
+              <h3>משפחתי</h3>
+              <p class="pb_font-15">חדר משפחתי מחולק לחדר אשי וחדר פנימי לזוג כאשר ניתן להכניס לחדר משפחתי בין 4-5 אנשים ובוא כלול כל הדברים שכלולים בחדר זוגי</p>
+              <p class="mb-0">
+                <a href="#" role="button" class="btn btn-primary btn-shadow-blue text-neurim border-white btn-room" data-type-room="משפחתי">
+                בחר את החדר הזה
+                </a>
+            </p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="pb_pricing_v1 p-5 border border-primary text-center bg-white">
+              <h3>קוטג'</h3>
+              <p class="pb_font-15">חדר קוטג' מחולק לשתי חלקים עליון ותחתון כאשר החלק העליון הוא חדר זוגי ניתן להכניס לחדר הזה  4-6 אנשים ובוא כלול כל הדברים שכלולוים בחדר זוגי</p>
+              <p class="mb-0">
+                <a href="#" role="button" class="btn btn-secondary btn-room btn-shadow-blue text-neurim border-white" data-type-room="קוטג">
+                בחר את החדר הזה
+                </a>
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="pb_section pb_slant-white" id="section-faq">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-6 text-center mb-5">
+            <h2>שאלות ותשובות</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div id="pb_faq" class="pb_accordion" data-children=".item">
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq1" aria-expanded="true" aria-controls="pb_faq1" class="pb_font-22 py-4 text-qu">בעידן הקורונה איך אנחנו אמורים לאכול ארוחת בוקר וערב?</a>
+                <div id="pb_faq1" class="collapse show" role="tabpanel">
+                  <div class="py-3">
+                    <p>כרגע חדר האוכל יעבוד במתקונת רגילה, כאשר מגישים את האוכל לשולחנות אבל נתונים אלא נכונים ברגע העלאתם לאתר על מנת לקבל נתונים עדכניים ניתן ליצור איתנו קשר בטלפון או במייל
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq2" aria-expanded="false" aria-controls="pb_faq2" class="pb_font-22 py-4 text-qu">אני אלרגי לגלוטן, מה עושים?</a>
+                <div id="pb_faq2" class="collapse" role="tabpanel">
+                  <div class="py-3">
+                    <p>צריך לעדכן אותנו גם בעט ההזמנה על מנת שנציין את זה בהערות וגם כמה ימים לפני הנופש על מנת שנתארגן לזה.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq3" aria-expanded="false" aria-controls="pb_faq3" class="pb_font-22 py-4 text-qu">האם אני יכול לתפוס חדר לאדם אחד?                </a>
+                <div id="pb_faq3" class="collapse" role="tabpanel">
+                  <div class="py-3">
+                    <p>אדם שרוצה להגיע לכפר הנופש לבד יכול לקבל חדר זוגי אבל המחיר הוא 80% מתוך מחיר של זוג (על מנת לחשב מה יהיה המחיר ללילה הכפילו את המחיר למבוגר בשתיים והכפילו ב – 0.80)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq4" aria-expanded="false" aria-controls="pb_faq4" class="pb_font-22 py-4 text-qu">האם יש מטבחון בחדרים?</a>
+                <div id="pb_faq4" class="collapse" role="tabpanel">
+                  <div class="py-3">
+                    <p>לא אבל קיים בחדרים ערכת קפה ומקרר</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq5" aria-expanded="false" aria-controls="pb_faq5" class="pb_font-22 py-4 text-qu">האם קיים אינטרנט, מגבות וטלוויזיה בחדר?</a>
+                <div id="pb_faq5" class="collapse" role="tabpanel">
+                  <div class="py-3">
+                    <p>כן</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pb_footer bg-light" role="contentinfo">
+      <div class="container text-center">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row justify-content-center">
+        <div class="row">
+          <div class="col text-center">
+            <p class="pb_font-14">נוצר על ידי שלמה שלו בן אדרת לכפר הנופש נעורים</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- loader -->
+    <div id="pb_loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#1d82ff"/></svg></div>
+
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
